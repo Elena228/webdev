@@ -1,0 +1,462 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+ 
+  body {
+    max-width: 1600px;
+    min-width: 1280px;
+    margin: 0 auto;
+    font-size: 14px; 
+    line-height: 20px;
+    font-family: Roboto, sans-serif;
+    position: relative;
+  }
+
+  
+  h1 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    color: #FFF; 
+  }
+
+   h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-weight: 400;
+    color: #4E4E4E;
+  }
+
+  strong {
+    font-weight: 500;
+  }
+
+  img {
+    display: block;
+  }
+
+  .button {
+    text-decoration: none;
+    width: 184px;
+    height: 46px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #00AFDB;
+  }
+
+    .button:hover, button:hover {
+    background: #009CC2;
+  }
+
+  .wrapper {
+    height: 582px;
+    width: 1280px;
+    padding-top: 120px;
+    margin: 0 auto;
+    padding-bottom: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+/*   Header   */
+
+  .header {
+    height: 95px; 
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+
+  .headernav {
+    height: 100%;
+    width: 583px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .current {
+    margin-left: -14px;
+  }
+
+  .syllabus {
+    margin-left: 85px;
+    margin-right: 244px;
+  }
+ 
+  .FAQ {
+    margin-left: 85px;
+  }
+
+  .logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -22px;
+  }
+
+  .headernav a {
+    display: flex;
+    color: rgba(255,255,255,0.8);
+    font-weight: 400;
+    text-decoration: none;
+    align-items: center;
+  }
+
+  .headernav a:hover, a.current {
+    font-weight: 500;
+    color: rgba(255,255,255,1);
+    border-bottom: 1px solid #fff;
+  } 
+
+/*   Your life   */
+
+  .your_life {
+    width: 100%;
+    height: 744px;
+    background: url("assets/bg-image-wrapper.svg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  .your_life .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 230px;
+  }
+
+  .your_life p {
+    width: 504px;
+    height: 50px;
+    margin-top: 22px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFF;
+  }
+
+  .your_life .socials {
+    width: 170px;
+    height: 110px;
+    position: absolute;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .socials a:hover img {
+    opacity: .5;
+  }
+
+/*    Rappresent   */
+
+  .rappresent {
+    width: 100%;
+    height: 842px;
+  }
+
+  .rappresent .wrapper div {
+    width: 407px; 
+    padding: 0 109px 0 0; 
+  }
+
+  .rappresent .wrapper .content-block {
+    padding-left: 109px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+/*  Our Community  */
+
+  .our_community {
+    width: 100%;
+    height: 504px;
+    background: #F5F6F7;
+    overflow: hidden;
+  }
+
+  .our_communityWrapper {
+    height: 244px;
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
+
+  }
+
+  .user-card {
+    width: 297px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0 139px 0 109px;
+  }
+
+  .userpic {
+    margin-bottom: 20px;
+  }
+
+  .user-card h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #373737;
+    margin-bottom: 10px;
+}
+
+
+
+  .slider-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 109px;
+    margin-top: -38px;
+    margin-bottom: 20px;
+  }
+  
+  .slider-nav .numbers {
+    margin: 0 14px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    color: #373737;
+  }
+  
+  .slider-nav .numbers img {
+    margin: 0 4px;
+  }
+
+  .slider-nav a:hover {
+    opacity: .5;
+  }
+
+  .slider-img {
+    display: flex;
+    width: 734px;
+  }
+
+  .slider-img img {
+    height: 244px;
+    width: 407px;
+  }
+
+  .slider-img img + img{
+    margin-left: 30px;
+  }
+
+/*  Implement  */
+
+  .implement {
+    width: 100%;
+    height: 842px;
+  }
+
+  .implement .wrapper div {
+    width: 407px; 
+    padding: 0 0 0 109px; 
+  }
+
+  .implement .wrapper .content-block {
+    padding-right: 218px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .implement .button {
+    width: 180px;
+  }
+  
+ /*  Sign Up  */
+
+  .sign_up {
+    width: 100%;
+    height: 524px;
+    background: url("assets/sign_up_bg.svg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .sign_upWrapper {
+    width: 406px;
+    height: 104px;
+    margin: 0 auto;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sign_upWrapper h2 {
+    color: #FFFFFF;
+  }
+
+  .sign_up_form{
+    width: 100%;
+    display: flex;
+  }
+
+  .sign_up_form input {
+    height: 46px;
+    flex-grow: 1;
+    padding: 0;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    padding: 0 24px;
+    color: #373737;  
+  }
+
+  ::-webkit-input-placeholder {opacity: .5;}
+  ::-moz-placeholder          {opacity: .5;}
+  :-moz-placeholder           {opacity: .5;}      
+  :-ms-input-placeholder      {opacity: .5;}
+
+  .sign_up_form button {
+    width: 66px;
+    height: 46px;
+    padding: 0;
+    border: none;
+    border-radius: 0px;
+    outline: none;
+    background: #00AFDB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sign_up_form button:hover {
+    background-color:  #009CC2;
+  }
+
+ /*  download  */
+
+  .download {
+    width: 100%;
+    height: 464px;
+    background-color: #F5F6F7;
+  }
+
+  .downloadWrapper {
+    width: 480px;
+    height: 164px;
+    margin: 0 auto;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .download_form {
+    width: 402px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .download .button {
+    width: 186px;
+  }
+
+  .download .button .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 59px;
+    height: 100%;
+    background-color: #009CC2;
+  }
+
+  .download .button .caption {
+    flex-grow: 1;
+  }
+
+/*  Footer  */
+
+   .footer {
+    width: 100%;
+    height: 185px;
+    background: #000000;
+  }
+
+  .footerWrapper {
+    width: 1280px;
+    height: 45px;
+    margin: 0 auto;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+  }
+
+  .footerWrapper ul {
+    height: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .footerWrapper li {
+    display: flex;
+    align-items: center;
+  }
+
+  .footerWrapper a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+
+  .footerWrapper .divider {
+    margin: 0 20px;
+    height: 8px;
+    width: 1px;
+    background-color: #4E4E4E
+  }
+
+  .footerWrapper a:hover {
+    border-bottom: 1px solid #fff;
+  } 
+
+  .footerWrapper .copyright {
+    color: #818181;
+  }
